@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <title>Event Registration Form</title>
+     <title>JNTUH Event Registration Form</title>
      <style>
          body {
              font-family: Arial, sans-serif;
@@ -53,8 +53,12 @@
 <div class = "container">
      <h2>Event Registration Form</h2>
      <form action="#" method="post">
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="name" required>
+          <input type="text"
+              id="name"
+              name="name"
+              pattern="[A-Za-z ]+"
+              title="Enter only letters"
+              required>
 
           <label for="email">Email Address</label>
           <input type="email" id="email" email="email required>
